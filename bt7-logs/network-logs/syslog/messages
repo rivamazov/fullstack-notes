@@ -1,0 +1,92 @@
+Mar 13 04:05:02 combo syslogd 1.4.1: restart.
+Mar 13 04:10:10 combo su(pam_unix)[26013]: session opened for user news by (uid=0)
+Mar 13 04:10:10 combo su(pam_unix)[26013]: session closed for user news
+Mar 13 22:50:53 combo sshd(pam_unix)[9356]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=h-67-103-15-70.nycmny83.covad.net  user=root
+Mar 13 22:51:04 combo sshd(pam_unix)[9358]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=h-67-103-15-70.nycmny83.covad.net  user=root
+Mar 13 22:51:15 combo sshd(pam_unix)[9360]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=h-67-103-15-70.nycmny83.covad.net  user=root
+Mar 13 22:51:27 combo sshd(pam_unix)[9362]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=h-67-103-15-70.nycmny83.covad.net  user=root
+Mar 13 22:51:38 combo sshd(pam_unix)[9364]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=h-67-103-15-70.nycmny83.covad.net  user=root
+Mar 13 22:51:49 combo sshd(pam_unix)[9366]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=h-67-103-15-70.nycmny83.covad.net  user=root
+Mar 13 22:52:00 combo sshd(pam_unix)[9368]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=h-67-103-15-70.nycmny83.covad.net  user=root
+Mar 13 22:52:11 combo sshd(pam_unix)[9370]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=h-67-103-15-70.nycmny83.covad.net  user=root
+Mar 14 00:27:17 combo sshd(pam_unix)[9547]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=vickyp.chem.columbia.edu  user=nobody
+Mar 14 00:27:27 combo sshd(pam_unix)[9549]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=vickyp.chem.columbia.edu  user=nobody
+Mar 14 00:27:37 combo sshd(pam_unix)[9551]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=vickyp.chem.columbia.edu  user=nobody
+Mar 14 00:27:42 combo sshd(pam_unix)[9553]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=vickyp.chem.columbia.edu  user=nobody
+Mar 14 00:27:47 combo sshd(pam_unix)[9555]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=vickyp.chem.columbia.edu  user=nobody
+Mar 14 00:27:51 combo sshd(pam_unix)[9557]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=vickyp.chem.columbia.edu  user=nobody
+Mar 14 00:27:51 combo sshd(pam_unix)[9559]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=vickyp.chem.columbia.edu  user=nobody
+Mar 14 00:27:52 combo sshd(pam_unix)[9561]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=vickyp.chem.columbia.edu  user=nobody
+Mar 14 00:27:57 combo sshd(pam_unix)[9563]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=vickyp.chem.columbia.edu  user=nobody
+Mar 14 00:28:01 combo sshd(pam_unix)[9565]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=vickyp.chem.columbia.edu  user=nobody
+Mar 14 00:28:01 combo sshd(pam_unix)[9567]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=vickyp.chem.columbia.edu  user=nobody
+Mar 14 00:28:02 combo sshd(pam_unix)[9569]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=vickyp.chem.columbia.edu  user=nobody
+Mar 14 00:28:03 combo sshd(pam_unix)[9571]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=vickyp.chem.columbia.edu  user=nobody
+Mar 14 00:28:03 combo sshd(pam_unix)[9573]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=vickyp.chem.columbia.edu  user=nobody
+Mar 14 00:28:07 combo sshd(pam_unix)[9575]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=vickyp.chem.columbia.edu  user=nobody
+Mar 14 00:28:09 combo sshd(pam_unix)[9577]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=vickyp.chem.columbia.edu  user=nobody
+Mar 14 00:28:11 combo sshd(pam_unix)[9579]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=vickyp.chem.columbia.edu  user=nobody
+Mar 14 00:28:11 combo sshd(pam_unix)[9581]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=vickyp.chem.columbia.edu  user=nobody
+Mar 14 00:28:12 combo sshd(pam_unix)[9583]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=vickyp.chem.columbia.edu  user=nobody
+Mar 14 00:28:13 combo sshd(pam_unix)[9585]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=vickyp.chem.columbia.edu  user=nobody
+Mar 14 00:28:13 combo sshd(pam_unix)[9587]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=vickyp.chem.columbia.edu  user=nobody
+Mar 14 00:28:14 combo sshd(pam_unix)[9589]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=vickyp.chem.columbia.edu  user=nobody
+Mar 14 00:28:16 combo sshd(pam_unix)[9591]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=vickyp.chem.columbia.edu  user=nobody
+Mar 14 04:11:59 combo su(pam_unix)[10332]: session opened for user news by (uid=0)
+Mar 14 04:12:00 combo su(pam_unix)[10332]: session closed for user news
+Mar 15 00:34:50 combo sshd(pam_unix)[12747]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=207.188.80.171  user=root
+Mar 15 00:34:50 combo sshd(pam_unix)[12749]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=207.188.80.171  user=root
+Mar 15 00:34:50 combo sshd(pam_unix)[12750]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=207.188.80.171  user=root
+Mar 15 00:34:50 combo sshd(pam_unix)[12751]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=207.188.80.171  user=root
+Mar 15 00:34:51 combo sshd(pam_unix)[12755]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=207.188.80.171  user=root
+Mar 15 00:34:51 combo sshd(pam_unix)[12757]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=207.188.80.171  user=root
+Mar 15 00:34:51 combo sshd(pam_unix)[12759]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=207.188.80.171  user=root
+Mar 15 00:34:52 combo sshd(pam_unix)[12761]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=207.188.80.171  user=root
+Mar 15 00:34:52 combo sshd(pam_unix)[12763]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=207.188.80.171  user=root
+Mar 15 00:34:53 combo sshd(pam_unix)[12765]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=207.188.80.171  user=root
+Mar 15 00:56:33 combo sshd(pam_unix)[12799]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=82.76.137.124  user=nobody
+Mar 15 04:09:39 combo su(pam_unix)[13493]: session opened for user news by (uid=0)
+Mar 15 04:09:40 combo su(pam_unix)[13493]: session closed for user news
+Mar 15 12:52:46 combo sshd(pam_unix)[14388]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=61-222-170-236.hinet-ip.hinet.net  user=root
+Mar 15 12:52:46 combo sshd(pam_unix)[14386]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=61-222-170-236.hinet-ip.hinet.net  user=root
+Mar 15 12:52:59 combo sshd(pam_unix)[14390]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=61-222-170-236.hinet-ip.hinet.net  user=root
+Mar 15 12:52:59 combo sshd(pam_unix)[14391]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=61-222-170-236.hinet-ip.hinet.net  user=root
+Mar 15 12:53:12 combo sshd(pam_unix)[14394]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=61-222-170-236.hinet-ip.hinet.net  user=root
+Mar 15 12:53:12 combo sshd(pam_unix)[14395]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=61-222-170-236.hinet-ip.hinet.net  user=root
+Mar 15 12:53:24 combo sshd(pam_unix)[14398]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=61-222-170-236.hinet-ip.hinet.net  user=root
+Mar 15 12:53:24 combo sshd(pam_unix)[14399]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=61-222-170-236.hinet-ip.hinet.net  user=root
+Mar 15 12:53:37 combo sshd(pam_unix)[14402]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=61-222-170-236.hinet-ip.hinet.net  user=root
+Mar 15 12:53:37 combo sshd(pam_unix)[14403]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=61-222-170-236.hinet-ip.hinet.net  user=root
+Mar 15 12:53:50 combo sshd(pam_unix)[14406]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=61-222-170-236.hinet-ip.hinet.net  user=root
+Mar 15 12:53:50 combo sshd(pam_unix)[14407]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=61-222-170-236.hinet-ip.hinet.net  user=root
+Mar 15 12:54:03 combo sshd(pam_unix)[14410]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=61-222-170-236.hinet-ip.hinet.net  user=root
+Mar 15 12:54:03 combo sshd(pam_unix)[14411]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=61-222-170-236.hinet-ip.hinet.net  user=root
+Mar 15 12:54:15 combo sshd(pam_unix)[14414]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=61-222-170-236.hinet-ip.hinet.net  user=root
+Mar 15 12:54:16 combo sshd(pam_unix)[14415]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=61-222-170-236.hinet-ip.hinet.net  user=root
+Mar 15 13:38:03 combo sshd(pam_unix)[14490]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=202.68.93.5.dts.net.nz  user=root
+Mar 15 14:29:52 combo sshd(pam_unix)[14572]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=202.68.93.5.dts.net.nz  user=root
+Mar 15 14:55:18 combo sshd(pam_unix)[14613]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=202.68.93.5.dts.net.nz  user=root
+Mar 15 23:58:00 combo sshd(pam_unix)[15459]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=202.68.93.5.dts.net.nz  user=root
+Mar 16 00:33:54 combo sshd(pam_unix)[15523]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=202.68.93.5.dts.net.nz  user=root
+Mar 16 04:07:48 combo su(pam_unix)[16254]: session opened for user news by (uid=0)
+Mar 16 04:07:49 combo su(pam_unix)[16254]: session closed for user news
+Mar 16 05:39:05 combo rpc.statd[1601]: gethostbyname error for ^X÷ÿ¿^X÷ÿ¿^Z÷ÿ¿^Z÷ÿ¿%8x%8x%8x%8x%8x%8x%8x%8x%8x%62716x%hn%51859x%hn\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220
+Mar 16 05:39:05 combo rpc.statd[1601]: gethostbyname error for ^X÷ÿ¿^X÷ÿ¿^Z÷ÿ¿^Z÷ÿ¿%8x%8x%8x%8x%8x%8x%8x%8x%8x%62716x%hn%51859x%hn\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220
+Mar 16 05:39:05 combo rpc.statd[1601]: gethostbyname error for ^X÷ÿ¿^X÷ÿ¿^Z÷ÿ¿^Z÷ÿ¿%8x%8x%8x%8x%8x%8x%8x%8x%8x%62716x%hn%51859x%hn\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220
+Mar 16 05:39:06 combo rpc.statd[1601]: gethostbyname error for ^X÷ÿ¿^X÷ÿ¿^Z÷ÿ¿^Z÷ÿ¿%8x%8x%8x%8x%8x%8x%8x%8x%8x%62716x%hn%51859x%hn\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220
+Mar 16 05:39:06 combo rpc.statd[1601]: gethostbyname error for ^X÷ÿ¿^X÷ÿ¿^Z÷ÿ¿^Z÷ÿ¿%8x%8x%8x%8x%8x%8x%8x%8x%8x%62716x%hn%51859x%hn\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220\220
+Mar 16 06:49:50 combo sshd(pam_unix)[16574]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=202.110.184.100  user=root
+Mar 16 06:49:51 combo sshd(pam_unix)[16569]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=202.110.184.100  user=root
+Mar 16 06:49:51 combo sshd(pam_unix)[16570]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=202.110.184.100  user=root
+Mar 16 06:49:51 combo sshd(pam_unix)[16575]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=202.110.184.100  user=root
+Mar 16 06:49:53 combo sshd(pam_unix)[16573]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=202.110.184.100  user=root
+Mar 16 06:49:54 combo sshd(pam_unix)[16579]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=202.110.184.100  user=root
+Mar 16 06:49:55 combo sshd(pam_unix)[16583]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=202.110.184.100  user=root
+Mar 16 06:49:57 combo sshd(pam_unix)[16581]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=202.110.184.100  user=root
+Mar 16 06:49:57 combo sshd(pam_unix)[16582]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=202.110.184.100  user=root
+Mar 17 01:35:17 combo sshd(pam_unix)[18398]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=h-67-103-15-70.nycmny83.covad.net  user=info
+Mar 17 01:35:19 combo sshd(pam_unix)[18402]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=h-67-103-15-70.nycmny83.covad.net  user=info
+Mar 17 04:08:02 combo su(pam_unix)[19029]: session opened for user news by (uid=0)
+Mar 17 04:08:03 combo su(pam_unix)[19029]: session closed for user news
+Mar 17 13:06:36 combo login(pam_unix)[17812]: session opened for user root by LOGIN(uid=0)
+Mar 17 13:06:36 combo  -- root[17812]: ROOT LOGIN ON tty1

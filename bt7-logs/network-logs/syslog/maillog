@@ -1,0 +1,105 @@
+Mar 13 04:16:16 combo sendmail[26065]: j2D9FD3X026065: from=root, size=39455, class=0, nrcpts=1, msgid=<200503130915.j2D9FD3X026065@combo.honeypotbox.com>, relay=root@localhost
+Mar 13 04:16:34 combo sendmail[26067]: j2D9GH6S026067: from=<root@combo.honeypotbox.com>, size=39751, class=0, nrcpts=1, msgid=<200503130915.j2D9FD3X026065@combo.honeypotbox.com>, proto=ESMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Mar 13 04:16:34 combo sendmail[26065]: j2D9FD3X026065: to=root, ctladdr=root (0/0), delay=00:01:21, xdelay=00:00:17, mailer=relay, pri=30241, relay=[127.0.0.1] [127.0.0.1], dsn=2.0.0, stat=Sent (j2D9GH6S026067 Message accepted for delivery)
+Mar 13 04:16:34 combo sendmail[26068]: j2D9GH6S026067: to=<root@combo.honeypotbox.com>, ctladdr=<root@combo.honeypotbox.com> (0/0), delay=00:00:01, xdelay=00:00:00, mailer=local, pri=69989, dsn=2.0.0, stat=Sent
+Mar 14 04:06:22 combo sendmail[10169]: j2E96MKL010169: from=root, size=1045, class=0, nrcpts=1, msgid=<200503140906.j2E96MKL010169@combo.honeypotbox.com>, relay=root@localhost
+Mar 14 04:06:47 combo sendmail[10172]: j2E96M6S010172: from=<root@combo.honeypotbox.com>, size=1359, class=0, nrcpts=1, msgid=<200503140906.j2E96MKL010169@combo.honeypotbox.com>, proto=ESMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Mar 14 04:06:47 combo sendmail[10169]: j2E96MKL010169: to=root, ctladdr=root (0/0), delay=00:00:25, xdelay=00:00:25, mailer=relay, pri=30056, relay=[127.0.0.1] [127.0.0.1], dsn=2.0.0, stat=Sent (j2E96M6S010172 Message accepted for delivery)
+Mar 14 04:06:47 combo sendmail[10173]: j2E96M6S010172: to=<root@combo.honeypotbox.com>, ctladdr=<root@combo.honeypotbox.com> (0/0), delay=00:00:00, xdelay=00:00:00, mailer=local, pri=31602, dsn=2.0.0, stat=Sent
+Mar 14 04:18:17 combo sendmail[10384]: j2E9HFPa010384: from=root, size=39406, class=0, nrcpts=1, msgid=<200503140917.j2E9HFPa010384@combo.honeypotbox.com>, relay=root@localhost
+Mar 14 04:18:35 combo sendmail[10386]: j2E9II6S010386: from=<root@combo.honeypotbox.com>, size=39702, class=0, nrcpts=1, msgid=<200503140917.j2E9HFPa010384@combo.honeypotbox.com>, proto=ESMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Mar 14 04:18:35 combo sendmail[10384]: j2E9HFPa010384: to=root, ctladdr=root (0/0), delay=00:01:20, xdelay=00:00:17, mailer=relay, pri=30241, relay=[127.0.0.1] [127.0.0.1], dsn=2.0.0, stat=Sent (j2E9II6S010386 Message accepted for delivery)
+Mar 14 04:18:36 combo sendmail[10387]: j2E9II6S010386: to=<root@combo.honeypotbox.com>, ctladdr=<root@combo.honeypotbox.com> (0/0), delay=00:00:01, xdelay=00:00:01, mailer=local, pri=69940, dsn=2.0.0, stat=Sent
+Mar 14 23:47:46 combo sendmail[12661]: j2F4lk6S012661: [211.158.69.89] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Mar 14 23:47:46 combo sendmail[12651]: j2F4lk6S012651: [211.158.69.89] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Mar 14 23:47:46 combo sendmail[12652]: j2F4lk6S012652: [211.158.69.89] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Mar 14 23:47:46 combo sendmail[12656]: j2F4lk6S012656: [211.158.69.89] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Mar 14 23:47:46 combo sendmail[12662]: j2F4lk6S012662: [211.158.69.89] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Mar 14 23:47:46 combo sendmail[12644]: j2F4lk6S012644: [211.158.69.89] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Mar 14 23:47:46 combo sendmail[12653]: j2F4lk6S012653: [211.158.69.89] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Mar 14 23:47:46 combo sendmail[12659]: j2F4lk6S012659: [211.158.69.89] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Mar 14 23:47:46 combo sendmail[12650]: j2F4lk6S012650: [211.158.69.89] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Mar 14 23:47:46 combo sendmail[12649]: j2F4lk6S012649: [211.158.69.89] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Mar 14 23:47:46 combo sendmail[12643]: j2F4lk6S012643: [211.158.69.89] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Mar 14 23:47:46 combo sendmail[12645]: j2F4lk6S012645: [211.158.69.89] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Mar 14 23:47:46 combo sendmail[12646]: j2F4lk6S012646: [211.158.69.89] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Mar 14 23:47:46 combo sendmail[12648]: j2F4lk6S012648: [211.158.69.89] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Mar 14 23:47:46 combo sendmail[12658]: j2F4lk6S012658: [211.158.69.89] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Mar 14 23:47:46 combo sendmail[12657]: j2F4lk6S012657: [211.158.69.89] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Mar 14 23:47:46 combo sendmail[12647]: j2F4lk6S012647: [211.158.69.89] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Mar 14 23:47:46 combo sendmail[12660]: j2F4lk6S012660: [211.158.69.89] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Mar 14 23:47:46 combo sendmail[12654]: j2F4lk6S012654: [211.158.69.89] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Mar 14 23:47:46 combo sendmail[12655]: j2F4lk6S012655: [211.158.69.89] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Mar 14 23:47:46 combo sendmail[12663]: j2F4lk6S012663: [211.158.69.89] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Mar 14 23:47:46 combo sendmail[12664]: j2F4lk6S012664: [211.158.69.89] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Mar 15 04:04:12 combo sendmail[13333]: j2F94C4d013333: from=root, size=1145, class=0, nrcpts=1, msgid=<200503150904.j2F94C4d013333@combo.honeypotbox.com>, relay=root@localhost
+Mar 15 04:04:36 combo sendmail[13336]: j2F94C6S013336: from=<root@combo.honeypotbox.com>, size=1459, class=0, nrcpts=1, msgid=<200503150904.j2F94C4d013333@combo.honeypotbox.com>, proto=ESMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Mar 15 04:04:36 combo sendmail[13333]: j2F94C4d013333: to=root, ctladdr=root (0/0), delay=00:00:24, xdelay=00:00:24, mailer=relay, pri=30056, relay=[127.0.0.1] [127.0.0.1], dsn=2.0.0, stat=Sent (j2F94C6S013336 Message accepted for delivery)
+Mar 15 04:04:36 combo sendmail[13337]: j2F94C6S013336: to=<root@combo.honeypotbox.com>, ctladdr=<root@combo.honeypotbox.com> (0/0), delay=00:00:00, xdelay=00:00:00, mailer=local, pri=31702, dsn=2.0.0, stat=Sent
+Mar 15 04:15:48 combo sendmail[13548]: j2F9Ei14013548: from=root, size=39406, class=0, nrcpts=1, msgid=<200503150914.j2F9Ei14013548@combo.honeypotbox.com>, relay=root@localhost
+Mar 15 04:16:05 combo sendmail[13555]: j2F9Fm6S013555: from=<root@combo.honeypotbox.com>, size=39702, class=0, nrcpts=1, msgid=<200503150914.j2F9Ei14013548@combo.honeypotbox.com>, proto=ESMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Mar 15 04:16:05 combo sendmail[13548]: j2F9Ei14013548: to=root, ctladdr=root (0/0), delay=00:01:20, xdelay=00:00:17, mailer=relay, pri=30241, relay=[127.0.0.1] [127.0.0.1], dsn=2.0.0, stat=Sent (j2F9Fm6S013555 Message accepted for delivery)
+Mar 15 04:16:05 combo sendmail[13556]: j2F9Fm6S013555: to=<root@combo.honeypotbox.com>, ctladdr=<root@combo.honeypotbox.com> (0/0), delay=00:00:00, xdelay=00:00:00, mailer=local, pri=69940, dsn=2.0.0, stat=Sent
+Mar 16 04:02:11 combo sendmail[16094]: j2G92BTv016094: from=root, size=1194, class=0, nrcpts=1, msgid=<200503160902.j2G92BTv016094@combo.honeypotbox.com>, relay=root@localhost
+Mar 16 04:02:32 combo sendmail[16097]: j2G92B6S016097: from=<root@combo.honeypotbox.com>, size=1508, class=0, nrcpts=1, msgid=<200503160902.j2G92BTv016094@combo.honeypotbox.com>, proto=ESMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Mar 16 04:02:32 combo sendmail[16094]: j2G92BTv016094: to=root, ctladdr=root (0/0), delay=00:00:21, xdelay=00:00:21, mailer=relay, pri=30056, relay=[127.0.0.1] [127.0.0.1], dsn=2.0.0, stat=Sent (j2G92B6S016097 Message accepted for delivery)
+Mar 16 04:02:32 combo sendmail[16098]: j2G92B6S016097: to=<root@combo.honeypotbox.com>, ctladdr=<root@combo.honeypotbox.com> (0/0), delay=00:00:00, xdelay=00:00:00, mailer=local, pri=31751, dsn=2.0.0, stat=Sent
+Mar 16 04:13:52 combo sendmail[16309]: j2G9Cmag016309: from=root, size=39406, class=0, nrcpts=1, msgid=<200503160912.j2G9Cmag016309@combo.honeypotbox.com>, relay=root@localhost
+Mar 16 04:14:09 combo sendmail[16311]: j2G9Dq6S016311: from=<root@combo.honeypotbox.com>, size=39702, class=0, nrcpts=1, msgid=<200503160912.j2G9Cmag016309@combo.honeypotbox.com>, proto=ESMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Mar 16 04:14:09 combo sendmail[16309]: j2G9Cmag016309: to=root, ctladdr=root (0/0), delay=00:01:20, xdelay=00:00:17, mailer=relay, pri=30241, relay=[127.0.0.1] [127.0.0.1], dsn=2.0.0, stat=Sent (j2G9Dq6S016311 Message accepted for delivery)
+Mar 16 04:14:09 combo sendmail[16312]: j2G9Dq6S016311: to=<root@combo.honeypotbox.com>, ctladdr=<root@combo.honeypotbox.com> (0/0), delay=00:00:00, xdelay=00:00:00, mailer=local, pri=69940, dsn=2.0.0, stat=Sent
+Mar 16 06:04:35 combo sendmail[16488]: j2GB4Z6S016488: [61.73.91.96] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Mar 16 06:04:43 combo sendmail[16489]: j2GB4h6S016489: [61.73.91.96] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Mar 16 06:04:43 combo sendmail[16491]: j2GB4h6S016491: [61.73.91.96] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Mar 16 06:04:43 combo sendmail[16492]: j2GB4h6S016492: [61.73.91.96] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Mar 16 06:04:43 combo sendmail[16493]: j2GB4h6S016493: [61.73.91.96] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Mar 16 06:04:43 combo sendmail[16490]: j2GB4h6S016490: [61.73.91.96] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Mar 16 06:04:43 combo sendmail[16487]: j2GB4h6S016487: [61.73.91.96] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Mar 16 06:04:43 combo sendmail[16503]: j2GB4h6S016503: [61.73.91.96] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Mar 16 06:04:43 combo sendmail[16494]: j2GB4h6S016494: [61.73.91.96] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Mar 16 06:04:43 combo sendmail[16495]: j2GB4h6S016495: [61.73.91.96] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Mar 16 06:04:43 combo sendmail[16496]: j2GB4h6S016496: [61.73.91.96] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Mar 16 06:04:43 combo sendmail[16498]: j2GB4h6S016498: [61.73.91.96] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Mar 16 06:04:43 combo sendmail[16497]: j2GB4h6S016497: [61.73.91.96] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Mar 16 06:04:43 combo sendmail[16499]: j2GB4h6S016499: [61.73.91.96] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Mar 16 06:04:43 combo sendmail[16500]: j2GB4h6S016500: [61.73.91.96] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Mar 16 06:04:43 combo sendmail[16501]: j2GB4h6S016501: [61.73.91.96] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Mar 16 06:04:43 combo sendmail[16504]: j2GB4h6S016504: [61.73.91.96] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Mar 16 06:04:43 combo sendmail[16502]: j2GB4h6S016502: [61.73.91.96] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Mar 16 06:04:43 combo sendmail[16505]: j2GB4h6S016505: [61.73.91.96] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Mar 16 06:04:43 combo sendmail[16506]: j2GB4h6S016506: [61.73.91.96] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Mar 16 06:04:43 combo sendmail[16507]: j2GB4h6S016507: [61.73.91.96] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Mar 16 06:04:43 combo sendmail[16508]: j2GB4h6S016508: [61.73.91.96] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Mar 16 06:04:44 combo sendmail[16509]: j2GB4i6S016509: [61.73.91.96] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Mar 17 00:08:54 combo sendmail[18228]: j2H58s6S018228: [218.239.179.112] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Mar 17 00:08:54 combo sendmail[18229]: j2H58s6S018229: [218.239.179.112] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Mar 17 00:08:54 combo sendmail[18230]: j2H58s6S018230: [218.239.179.112] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Mar 17 00:08:54 combo sendmail[18231]: j2H58s6S018231: [218.239.179.112] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Mar 17 00:08:54 combo sendmail[18232]: j2H58s6S018232: [218.239.179.112] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Mar 17 00:08:55 combo sendmail[18233]: j2H58t6S018233: [218.239.179.112] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Mar 17 00:08:55 combo sendmail[18234]: j2H58t6S018234: [218.239.179.112] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Mar 17 00:08:55 combo sendmail[18235]: j2H58t6S018235: [218.239.179.112] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Mar 17 00:08:55 combo sendmail[18236]: j2H58t6S018236: [218.239.179.112] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Mar 17 00:08:55 combo sendmail[18237]: j2H58t6S018237: [218.239.179.112] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Mar 17 00:08:55 combo sendmail[18238]: j2H58t6S018238: [218.239.179.112] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Mar 17 00:08:55 combo sendmail[18239]: j2H58t6S018239: [218.239.179.112] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Mar 17 00:08:55 combo sendmail[18240]: j2H58t6S018240: [218.239.179.112] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Mar 17 00:08:55 combo sendmail[18241]: j2H58t6S018241: [218.239.179.112] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Mar 17 00:08:56 combo sendmail[18242]: j2H58u6S018242: [218.239.179.112] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Mar 17 00:08:56 combo sendmail[18243]: j2H58u6S018243: [218.239.179.112] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Mar 17 00:08:56 combo sendmail[18244]: j2H58u6S018244: [218.239.179.112] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Mar 17 00:08:56 combo sendmail[18246]: j2H58u6S018246: [218.239.179.112] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Mar 17 00:08:57 combo sendmail[18245]: j2H58u6S018245: [218.239.179.112] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Mar 17 00:08:57 combo sendmail[18247]: j2H58v6S018247: [218.239.179.112] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Mar 17 00:08:59 combo sendmail[18248]: j2H58x6S018248: [218.239.179.112] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Mar 17 00:08:59 combo sendmail[18249]: j2H58x6S018249: [218.239.179.112] did not issue MAIL/EXPN/VRFY/ETRN during connection to MTA
+Mar 17 00:09:31 combo sendmail[18227]: j2H58k6S018227: lost input channel from [218.239.179.112] to MTA after mail
+Mar 17 00:09:31 combo sendmail[18227]: j2H58k6S018227: from=f831849@thrunet.net, size=0, class=0, nrcpts=0, proto=SMTP, daemon=MTA, relay=[218.239.179.112]
+Mar 17 04:02:19 combo sendmail[18869]: j2H92JvK018869: from=root, size=1370, class=0, nrcpts=1, msgid=<200503170902.j2H92JvK018869@combo.honeypotbox.com>, relay=root@localhost
+Mar 17 04:02:43 combo sendmail[18872]: j2H92J6S018872: from=<root@combo.honeypotbox.com>, size=1684, class=0, nrcpts=1, msgid=<200503170902.j2H92JvK018869@combo.honeypotbox.com>, proto=ESMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Mar 17 04:02:43 combo sendmail[18869]: j2H92JvK018869: to=root, ctladdr=root (0/0), delay=00:00:24, xdelay=00:00:24, mailer=relay, pri=30056, relay=[127.0.0.1] [127.0.0.1], dsn=2.0.0, stat=Sent (j2H92J6S018872 Message accepted for delivery)
+Mar 17 04:02:44 combo sendmail[18873]: j2H92J6S018872: to=<root@combo.honeypotbox.com>, ctladdr=<root@combo.honeypotbox.com> (0/0), delay=00:00:01, xdelay=00:00:00, mailer=local, pri=31927, dsn=2.0.0, stat=Sent
+Mar 17 04:14:15 combo sendmail[19084]: j2H9DCNt019084: from=root, size=39406, class=0, nrcpts=1, msgid=<200503170913.j2H9DCNt019084@combo.honeypotbox.com>, relay=root@localhost
+Mar 17 04:14:32 combo sendmail[19086]: j2H9EG6S019086: from=<root@combo.honeypotbox.com>, size=39702, class=0, nrcpts=1, msgid=<200503170913.j2H9DCNt019084@combo.honeypotbox.com>, proto=ESMTP, daemon=MTA, relay=localhost.localdomain [127.0.0.1]
+Mar 17 04:14:32 combo sendmail[19084]: j2H9DCNt019084: to=root, ctladdr=root (0/0), delay=00:01:20, xdelay=00:00:17, mailer=relay, pri=30241, relay=[127.0.0.1] [127.0.0.1], dsn=2.0.0, stat=Sent (j2H9EG6S019086 Message accepted for delivery)
+Mar 17 04:14:33 combo sendmail[19087]: j2H9EG6S019086: to=<root@combo.honeypotbox.com>, ctladdr=<root@combo.honeypotbox.com> (0/0), delay=00:00:01, xdelay=00:00:00, mailer=local, pri=69940, dsn=2.0.0, stat=Sent
