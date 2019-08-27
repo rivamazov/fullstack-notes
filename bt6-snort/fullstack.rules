@@ -1,0 +1,5 @@
+# alert tcp any any <> any any (msg:"TCP detected";sid:9001;)
+
+alert icmp any any <> any any (msg:"ICMP detected";sid:9000;)
+
+alert tcp any any <> any any (msg:"TCP detected";sid:9001;)
