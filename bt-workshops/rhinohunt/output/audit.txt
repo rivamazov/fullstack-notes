@@ -1,0 +1,34 @@
+Foremost version 1.5.7 by Jesse Kornblum, Kris Kendall, and Nick Mikus
+Audit File
+
+Foremost started at Thu Sep  5 17:08:42 2019
+Invocation: foremost -o output/ RHINOUSB.dd 
+Output directory: /home/alex/cyber/bt-workshops/rhinohunt/output
+Configuration file: /etc/foremost.conf
+------------------------------------------------------------------
+File: RHINOUSB.dd
+Start: Thu Sep  5 17:08:42 2019
+Length: 247 MB (259506176 bytes)
+ 
+Num	 Name (bs=512)	       Size	 File Offset	 Comment 
+
+0:	00104057.jpg 	      93 KB 	   53277184 	 
+1:	00104249.jpg 	     405 KB 	   53375488 	 
+2:	00105065.jpg 	     401 KB 	   53793280 	 
+3:	00105873.jpg 	     258 KB 	   54206976 	 
+4:	00106393.jpg 	       6 KB 	   54473216 	 
+5:	00106409.jpg 	     225 KB 	   54481408 	 
+6:	00106865.gif 	      11 KB 	   54714880 	  (290 x 246)
+7:	00106889.gif 	       4 KB 	   54727168 	  (150 x 87)
+8:	00335081.jpg 	     258 KB 	  171561472 	 
+9:	00335017.ole 	      31 KB 	  171528704 	 
+Finish: Thu Sep  5 17:08:48 2019
+
+10 FILES EXTRACTED
+	
+jpg:= 7
+gif:= 2
+ole:= 1
+------------------------------------------------------------------
+
+Foremost finished at Thu Sep  5 17:08:48 2019

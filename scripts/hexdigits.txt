@@ -1,0 +1,16 @@
+import sys
+
+def main():
+    
+    file = open(sys.argv[1], 'r')
+    numlist = file.read.splice(' ')
+    retstr = ''
+    for number in numlist:
+        retstr += chr(int(number))
+        
+    print retstr
+    return
+    
+main()
+
+    
