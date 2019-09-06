@@ -1,0 +1,26 @@
+Level	Date and Time	Source	Event ID	Task Category
+--------------------------------------------------------------------
+Information	2/25/2013 11:32:04 PM	Microsoft-Windows-DNS-Server-Service	3150	None	The DNS server wrote version 30 of zone iwar.itoc to file iwar.itoc.dns.
+--------------------------------------------------------------------
+Information	2/25/2013 11:31:06 PM	Microsoft-Windows-DNS-Server-Service	6001	None	The DNS server successfully completed transfer of version 30 of zone iwar.itoc to the DNS server at 172.16.2.58.
+--------------------------------------------------------------------
+Information	2/25/2013 10:26:23 PM	Microsoft-Windows-DNS-Server-Service	3150	None	The DNS server wrote version 29 of zone iwar.itoc to file iwar.itoc.dns.
+--------------------------------------------------------------------
+Information	2/25/2013 6:20:36 AM	Microsoft-Windows-DNS-Server-Service	3150	None	The DNS server wrote version 28 of zone iwar.itoc to file iwar.itoc.dns.
+--------------------------------------------------------------------
+Information	2/20/2013 6:20:39 AM	Microsoft-Windows-DNS-Server-Service	3150	None	The DNS server wrote version 24 of zone iwar.itoc to file iwar.itoc.dns.
+--------------------------------------------------------------------
+Information	2/19/2013 8:36:32 AM	Microsoft-Windows-DNS-Server-Service	3150	None	The DNS server wrote version 16 of zone 4.10.10.in-addr.arpa to file 4.10.10.in-addr.arpa.dns.
+--------------------------------------------------------------------
+Warning	2/19/2013 8:10:39 AM	Microsoft-Windows-DNS-Server-Service	6004	None	The DNS server received a zone transfer request from 192.168.119.102 for a non-existent or non-authoritative zone 10.10.4.251..
+--------------------------------------------------------------------
+Error	2/19/2013 7:05:15 AM	Microsoft-Windows-DNS-Server-Service	408	None	"The DNS server could not open socket for address 10.10.4.251. 
+Verify that this is a valid IP address for the server computer.  If it is NOT valid use the Interfaces dialog under Server Properties in the DNS Manager to remove it from the list of IP interfaces.  Then stop and restart the DNS server. (If this was the only IP interface on this machine and the DNS server may not have started as a result of this error.  In that case remove the DNS\Parameters\ ListenAddress value in the services section of the registry and restart.) 
+For more information, see ""DNS server log reference"" in the online Help."
+--------------------------------------------------------------------
+Error	2/19/2013 7:05:14 AM	Microsoft-Windows-DNS-Server-Service	408	None	"The DNS server could not open socket for address 10.10.4.251. 
+Verify that this is a valid IP address for the server computer.  If it is NOT valid use the Interfaces dialog under Server Properties in the DNS Manager to remove it from the list of IP interfaces.  Then stop and restart the DNS server. (If this was the only IP interface on this machine and the DNS server may not have started as a result of this error.  In that case remove the DNS\Parameters\ ListenAddress value in the services section of the registry and restart.) 
+For more information, see ""DNS server log reference"" in the online Help."
+--------------------------------------------------------------------
+Information	2/19/2013 7:00:46 AM	Microsoft-Windows-DNS-Server-Service	2	None	The DNS server has started.
+--------------------------------------------------------------------
