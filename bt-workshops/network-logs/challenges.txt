@@ -1,0 +1,10 @@
+Warm-up
+
+Count the number of IP sources and destinations in the iptablesyslog file.
+Identify and count the different protocols used in the iptablesyslog file.
+
+Challenge
+
+Print all of the logs related to IP addresses that appears most commonly between all the logs
+In iptablesyslog, what web resources was the attacker attempting to access?
+
