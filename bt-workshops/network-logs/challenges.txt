@@ -8,6 +8,6 @@ findprotocols.py
 Challenge
 
 Print all of the logs related to IP addresses that appears most commonly between all the logs
-//todo use bash to find 11.11.79.67 should be answer
+
 In iptablesyslog, what web resources was the attacker attempting to access?
 
