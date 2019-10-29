@@ -1,0 +1,47 @@
+# Nmap 7.80 scan initiated Tue Oct 29 13:38:19 2019 as: nmap -sS -A -oN os-scan.txt 10.10.10.3
+Nmap scan report for 10.10.10.3
+Host is up (0.019s latency).
+Not shown: 996 filtered ports
+PORT    STATE SERVICE     VERSION
+21/tcp  open  ftp         vsftpd 2.3.4
+|_ftp-anon: Anonymous FTP login allowed (FTP code 230)
+| ftp-syst: 
+|   STAT: 
+| FTP server status:
+|      Connected to 10.10.14.11
+|      Logged in as ftp
+|      TYPE: ASCII
+|      No session bandwidth limit
+|      Session timeout in seconds is 300
+|      Control connection is plain text
+|      Data connections will be plain text
+|      vsFTPd 2.3.4 - secure, fast, stable
+|_End of status
+22/tcp  open  ssh         OpenSSH 4.7p1 Debian 8ubuntu1 (protocol 2.0)
+| ssh-hostkey: 
+|   1024 60:0f:cf:e1:c0:5f:6a:74:d6:90:24:fa:c4:d5:6c:cd (DSA)
+|_  2048 56:56:24:0f:21:1d:de:a7:2b:ae:61:b1:24:3d:e8:f3 (RSA)
+139/tcp open  netbios-ssn Samba smbd 3.X - 4.X (workgroup: WORKGROUP)
+445/tcp open  netbios-ssn Samba smbd 3.X - 4.X (workgroup: WORKGROUP)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose|bridge|printer
+Running (JUST GUESSING): QEMU (98%), Oracle Virtualbox (98%), Samsung embedded (89%), Dell embedded (89%), Wind River VxWorks (89%), Xerox embedded (88%)
+OS CPE: cpe:/a:qemu:qemu cpe:/o:oracle:virtualbox cpe:/h:samsung:clp-315w cpe:/h:dell:1815dn cpe:/o:windriver:vxworks cpe:/h:xerox:workcentre_4150
+Aggressive OS guesses: QEMU user mode network gateway (98%), Oracle Virtualbox (98%), Samsung CLP-315W printer (89%), Dell 1815dn printer (89%), VxWorks (89%), Xerox WorkCentre 4150 printer (88%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+Service Info: OSs: Unix, Linux; CPE: cpe:/o:linux:linux_kernel
+
+Host script results:
+|_ms-sql-info: ERROR: Script execution failed (use -d to debug)
+|_smb-os-discovery: ERROR: Script execution failed (use -d to debug)
+|_smb-security-mode: ERROR: Script execution failed (use -d to debug)
+|_smb2-time: Protocol negotiation failed (SMB2)
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+1   1.90 ms 10.0.2.2
+2   2.00 ms 10.10.10.3
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Oct 29 13:39:27 2019 -- 1 IP address (1 host up) scanned in 68.40 seconds

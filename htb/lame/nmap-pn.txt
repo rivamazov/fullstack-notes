@@ -1,0 +1,11 @@
+# Nmap 7.70 scan initiated Sun Oct 27 12:41:42 2019 as: nmap -Pn -oN nmap-pn.txt 10.10.10.3
+Nmap scan report for 10.10.10.3
+Host is up (0.036s latency).
+Not shown: 996 filtered ports
+PORT    STATE SERVICE
+21/tcp  open  ftp
+22/tcp  open  ssh
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+
+# Nmap done at Sun Oct 27 12:41:47 2019 -- 1 IP address (1 host up) scanned in 5.07 seconds

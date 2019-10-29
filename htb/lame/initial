@@ -1,0 +1,2 @@
+# Nmap 7.70 scan initiated Sun Oct 27 12:40:37 2019 as: nmap -oN initial 10.10.10.3
+# Nmap done at Sun Oct 27 12:40:40 2019 -- 1 IP address (0 hosts up) scanned in 3.06 seconds
