@@ -1,5 +1,5 @@
 # HTB boxes
-- [ ] Lame
+- [x] Lame
 - [ ] Beep
 - [ ] Bastard
 - [ ] Grandpa/Granny
