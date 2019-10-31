@@ -1,6 +1,6 @@
 # HTB boxes
 - [x] Lame
-- [ ] Beep
+- [x] Beep
 - [ ] Bastard
 - [ ] Grandpa/Granny
 - [ ] Mirai
