@@ -1,0 +1,30 @@
+# Nmap 7.80 scan initiated Tue Oct 29 14:25:57 2019 as: nmap -Pn -oN initial-scan 10.10.10.7
+Nmap scan report for 10.10.10.7
+Host is up (0.037s latency).
+Not shown: 977 closed ports
+PORT      STATE    SERVICE
+22/tcp    filtered ssh
+25/tcp    open     smtp
+53/tcp    filtered domain
+80/tcp    open     http
+110/tcp   open     pop3
+111/tcp   open     rpcbind
+135/tcp   filtered msrpc
+143/tcp   open     imap
+443/tcp   open     https
+563/tcp   filtered snews
+993/tcp   open     imaps
+995/tcp   open     pop3s
+1417/tcp  filtered timbuktu-srv1
+1700/tcp  filtered mps-raft
+2103/tcp  filtered zephyr-clt
+3306/tcp  open     mysql
+3369/tcp  filtered satvid-datalnk
+3370/tcp  filtered satvid-datalnk
+4445/tcp  open     upnotifyp
+5679/tcp  filtered activesync
+9618/tcp  filtered condor
+10000/tcp open     snet-sensor-mgmt
+11110/tcp filtered sgi-soap
+
+# Nmap done at Tue Oct 29 14:26:28 2019 -- 1 IP address (1 host up) scanned in 30.88 seconds

