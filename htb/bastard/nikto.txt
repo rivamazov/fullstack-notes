@@ -1,0 +1,15 @@
+- Nikto v2.1.6
+---------------------------------------------------------------------------
++ Target IP:          10.10.10.9
++ Target Hostname:    10.10.10.9
++ Target Port:        80
++ Start Time:         2019-10-31 13:07:38 (GMT-4)
+---------------------------------------------------------------------------
++ Server: Microsoft-IIS/7.5
++ Retrieved x-powered-by header: ARRAY(0x5617a58f1fe8)
++ The X-XSS-Protection header is not defined. This header can hint to the user agent to protect against some forms of XSS
++ Uncommon header 'x-generator' found, with contents: Drupal 7 (http://drupal.org)
++ Scan terminated:  19 error(s) and 3 item(s) reported on remote host
++ End Time:           2019-10-31 13:14:48 (GMT-4) (430 seconds)
+---------------------------------------------------------------------------
++ 1 host(s) tested

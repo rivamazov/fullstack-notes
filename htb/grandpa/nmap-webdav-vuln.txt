@@ -1,0 +1,9 @@
+# Nmap 7.80 scan initiated Tue Nov  5 14:51:28 2019 as: nmap -T4 -p80 --script=http-iis-webdav-vuln -oN nmap-webdav-vuln.txt 10.10.10.14
+Nmap scan report for 10.10.10.14
+Host is up (0.064s latency).
+
+PORT   STATE SERVICE
+80/tcp open  http
+|_http-iis-webdav-vuln: WebDAV is ENABLED. No protected folder found; check not run. If you know a protected folder, add --script-args=webdavfolder=<path>
+
+# Nmap done at Tue Nov  5 14:52:53 2019 -- 1 IP address (1 host up) scanned in 85.63 seconds

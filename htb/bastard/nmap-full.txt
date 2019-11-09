@@ -1,0 +1,58 @@
+# Nmap 7.80 scan initiated Thu Oct 31 12:22:03 2019 as: nmap -sV --script=exploit,external,vuln,auth,default -oN nmap-version-exploits.txt -oN nmap-full.txt 10.10.10.9
+Pre-scan script results:
+| targets-asn: 
+|_  targets-asn.asn is a mandatory parameter
+Nmap scan report for 10.10.10.9
+Host is up (0.044s latency).
+Not shown: 997 filtered ports
+PORT      STATE SERVICE VERSION
+80/tcp    open  http    Microsoft IIS httpd 7.5
+|_clamav-exec: ERROR: Script execution failed (use -d to debug)
+| http-csrf: 
+| Spidering limited to: maxdepth=3; maxpagecount=20; withinhost=10.10.10.9
+|   Found the following possible CSRF vulnerabilities: 
+|     
+|     Path: http://10.10.10.9:80/
+|     Form id: user-login-form
+|     Form action: /node?destination=node
+|     
+|     Path: http://10.10.10.9:80/user/register
+|     Form id: user-register-form
+|     Form action: /user/register
+|     
+|     Path: http://10.10.10.9:80/node?destination=node
+|     Form id: user-login-form
+|     Form action: /node?destination=node
+|     
+|     Path: http://10.10.10.9:80/user/password
+|     Form id: user-pass
+|     Form action: /user/password
+|     
+|     Path: http://10.10.10.9:80/user/
+|     Form id: user-login
+|     Form action: /user/
+|     
+|     Path: http://10.10.10.9:80/user
+|     Form id: user-login
+|_    Form action: /user
+|_http-dombased-xss: Couldn't find any DOM based XSS.
+|_http-generator: Drupal 7 (http://drupal.org)
+| http-methods: 
+|_  Potentially risky methods: TRACE
+| http-robots.txt: 36 disallowed entries (15 shown)
+| /includes/ /misc/ /modules/ /profiles/ /scripts/ 
+| /themes/ /CHANGELOG.txt /cron.php /INSTALL.mysql.txt 
+| /INSTALL.pgsql.txt /INSTALL.sqlite.txt /install.php /INSTALL.txt 
+|_/LICENSE.txt /MAINTAINERS.txt
+|_http-server-header: Microsoft-IIS/7.5
+|_http-stored-xss: Couldn't find any stored XSS vulnerabilities.
+|_http-title: Welcome to 10.10.10.9 | 10.10.10.9
+|_http-xssed: No previously reported XSS vuln.
+135/tcp   open  msrpc   Microsoft Windows RPC
+|_clamav-exec: ERROR: Script execution failed (use -d to debug)
+49154/tcp open  msrpc   Microsoft Windows RPC
+|_clamav-exec: ERROR: Script execution failed (use -d to debug)
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Oct 31 12:34:00 2019 -- 1 IP address (1 host up) scanned in 717.39 seconds

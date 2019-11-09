@@ -1,0 +1,2 @@
+/admin (Status: 301)
+/versions (Status: 200)

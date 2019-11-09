@@ -1,0 +1,10 @@
+# Nmap 7.80 scan initiated Thu Oct 31 13:06:31 2019 as: nmap -sV --script=msrpc-enum -p 49154 -oN nmap-rpc.txt 10.10.10.9
+Nmap scan report for 10.10.10.9
+Host is up (0.062s latency).
+
+PORT      STATE SERVICE VERSION
+49154/tcp open  msrpc   Microsoft Windows RPC
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Oct 31 13:07:27 2019 -- 1 IP address (1 host up) scanned in 55.58 seconds
