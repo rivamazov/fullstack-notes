@@ -3,8 +3,8 @@
 - [x] Beep
 - [ ] Bastard
 - [ ] Grandpa/Granny
-- [ ] Mirai
-- [ ] Solidstate
+- [x] Mirai
+- [x] Solidstate
 - [ ] Jeeves
 - [ ] Tally (Much harder than anything on OSCP, but you've gotta get used to windows)
 - [ ] Bashed
