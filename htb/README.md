@@ -7,7 +7,7 @@
 - [x] Solidstate
 - [ ] Jeeves
 - [ ] Tally (Much harder than anything on OSCP, but you've gotta get used to windows)
-- [ ] Bashed
+- [x] Bashed
 - [ ] Nibbles
 - [ ] Sense
 - [ ] Valentine
