@@ -1,0 +1,6 @@
+/index (Status: 200)
+/dev (Status: 301)
+/encode (Status: 200)
+/decode (Status: 200)
+/omg (Status: 200)
+/server-status (Status: 403)

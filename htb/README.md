@@ -54,3 +54,4 @@ now `stty raw -echo` then `fg` the shell then hit enter a few times.
 - hydra -V -l admin -P /usr/share/wordlists/rockyou.txt 10.11.1.234 http-post-form "/wp-login.php:log=^USER^&pwd=^PASS^:F=ERROR" -t 32 -I
 - searchsploit -x to view
 - searchsploit -p copies to clipboard
+- gobuster dir -u http://10.10.10.14 -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -o gouster-2.3-medium.txt

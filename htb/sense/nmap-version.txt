@@ -1,0 +1,25 @@
+# Nmap 7.80 scan initiated Sun Nov 10 20:37:29 2019 as: nmap -T4 -sV -A -oN nmap-version.txt 10.10.10.60
+Nmap scan report for 10.10.10.60
+Host is up (0.039s latency).
+Not shown: 998 filtered ports
+PORT    STATE SERVICE    VERSION
+80/tcp  open  http       lighttpd 1.4.35
+|_http-server-header: lighttpd/1.4.35
+|_http-title: Did not follow redirect to https://10.10.10.60/
+|_https-redirect: ERROR: Script execution failed (use -d to debug)
+443/tcp open  ssl/https?
+|_ssl-date: TLS randomness does not represent time
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: specialized
+Running (JUST GUESSING): Comau embedded (92%)
+Aggressive OS guesses: Comau C4G robot control unit (92%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+
+TRACEROUTE (using port 443/tcp)
+HOP RTT      ADDRESS
+1   31.01 ms 10.10.14.1
+2   46.12 ms 10.10.10.60
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun Nov 10 20:39:23 2019 -- 1 IP address (1 host up) scanned in 114.41 seconds
