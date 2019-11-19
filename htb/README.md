@@ -10,9 +10,9 @@
 - [x] Bashed
 - [x] Nibbles
 - [ ] Sense
-- [ ] Valentine
+- [x] Valentine
 - [ ] Bart (Again, same issue but really get used to windows)
-- [ ] Chatterbox
+- [ ] Chatterbox // just need privesc
 - [ ] Popcorn
 - [ ] Haircut
 - [ ] Nineveh

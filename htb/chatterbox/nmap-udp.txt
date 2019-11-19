@@ -1,0 +1,10 @@
+# Nmap 7.80 scan initiated Mon Nov 18 19:27:29 2019 as: nmap -p 9254-9256 -oN nmap-udp.txt 10.10.10.74
+Nmap scan report for 10.10.10.74
+Host is up (0.014s latency).
+
+PORT     STATE    SERVICE
+9254/tcp filtered unknown
+9255/tcp open     mon
+9256/tcp open     unknown
+
+# Nmap done at Mon Nov 18 19:27:31 2019 -- 1 IP address (1 host up) scanned in 1.45 seconds
