@@ -1,0 +1,4 @@
+/index (Status: 200)
+/test (Status: 200)
+/torrent (Status: 301)
+/rename (Status: 301)

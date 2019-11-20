@@ -12,8 +12,8 @@
 - [ ] Sense
 - [x] Valentine
 - [ ] Bart (Again, same issue but really get used to windows)
-- [ ] Chatterbox // just need privesc
-- [ ] Popcorn
+- [ ] Chatterbox // low priv shell
+- [ ] Popcorn // low priv shell
 - [ ] Haircut
 - [ ] Nineveh
 - [ ] Shocker
