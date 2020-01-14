@@ -1,0 +1,66 @@
+assymetric encryption: plaintext -> cypher text.
+- uses public and private keys
+- key distribution is easy.
+- slower than symmetric
+
+symmetric encryption: same key used for encrypting and decrypting data.
+- fast and low resource usage but:
+- not as secure as asymmetric
+- different key for different parties.
+- cannot authenticate users.
+
+ciphers: methods/algorithms used to encrypt/decrypt data.
+- provided as packages called cypher suites.
+
+block cipher: data split into fixed length blocks if there is anything left over garbage data is padded.
+- AES, Blowfish, 3DES, DES, and RC5.
+
+Initialization vector: in cipher modes like CBC cipher block chaining each block is XOR-ed with the previous block. In the first block there is nothing to be XOR-ed with so an IV is used called a nonce. Can be used for each message if you really wanted.
+
+Block Cipher Operation Modes
+
+(ECB) Electronic Code Book - eacho block of data encrypted separately and then concatenated. Can use parallel processing. No need for an IV. If the same block of data is encrypted it will always generate the same ciphertext so attackers can look for patterns.
+
+(CBC) Cipher Block Chaining - Each block XOR-ed with the previous ciphertext before encryption. If part of the message is garbled or lost, the remainder is lost.
+
+(CFB) Cipher Feedback - Turns block cipher to synchronizing stream cypher using a shift register in place of each block (after the IV in the first block)
+
+(OFB) Output Feedback - also synchronizing stream cypher. Preserves error correction codes.
+
+(CTR) Counter Mode - nonce + counter for each block so can be decrypted/encrypted in parallel.
+
+(MAC) Message Authentication Code - checks authenticity as well as integrity of message. Called a tag (secret key and message) can be used to detect changes. A checksum basically.
+
+HMAC - MAC that uses a hash function. i.e. SHA256
+
+TLS 1.2
+
+1. Client hello containing:
+- Client version - (TLS 1.2 client version 3,3, followed by lesser preferred protocols)
+- Client random - (32 byte random number) client random and server random later used to generate the key.
+- Session ID - if empty server looks for previously cached sessions.
+- compression_methods - can lower bandwidth and get faster xfer speeds but can be risky.
+- Ciper Suites: combintation of: key exchange, authentication, bulk (data) encryption, and message authentication.
+	TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256. This string contains the following information:
+	
+	    TLS is the protocol being used
+	    ECDHE is the key exchange algorithm (Elliptic curve Diffie–Hellman)
+	    ECDSA is the authentication algorithm (Elliptic Curve Digital Signature Algorithm)
+	    AES_128_GCM is the data encryption algorithm (Advanced Encryption Standard 128 bit Galois/Counter Mode)
+	    SHA256 is the Message Authentication Code (MAC) algorithm (Secure Hash Algorithm 256 bit)
+- Extensions - other security functionality. If server can't do it then the handshake may be aborted.
+
+2. Server Hello containing:
+- Server version
+- Server random
+- Session ID
+- Cipher suite (one that was selected)
+- compressions methods.
+
+3. Server Certificate - Server sends a signed TLS/SSL cert and public key
+4. Client Certificate - (optional)
+5. Server Key Exchange - Sent only if the cert provided by the server is not sufficient for the client to exchange a pre-master secret.
+6. Server Hello Done - 
+7. Client Key Exchange
+- Pre-Master Secret - client has encrypted this using the public key extracted from the certificate provided by the server. Asymmetric encryption is used here.
+- Master Secret - 
