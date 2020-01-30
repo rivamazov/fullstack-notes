@@ -14,7 +14,7 @@
 - [ ] Bart (Again, same issue but really get used to windows)
 - [ ] Chatterbox // low priv shell
 - [ ] Popcorn // low priv shell
-- [ ] Haircut
+- [x] Haircut
 - [ ] Nineveh
 - [ ] Shocker
 - [ ] Cronos
