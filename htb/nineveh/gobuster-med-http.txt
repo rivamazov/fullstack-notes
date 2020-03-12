@@ -1,0 +1,5 @@
+/info.php (Status: 200)
+/index.html (Status: 200)
+/department (Status: 301)
+/server-status (Status: 403)
+

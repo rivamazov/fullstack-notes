@@ -1,0 +1,9 @@
+# Nmap 7.80 scan initiated Wed Feb  5 14:23:56 2020 as: nmap -n -PN -sT -p- -oN nmap-fuller.txt 10.10.10.43
+Nmap scan report for 10.10.10.43
+Host is up (0.0071s latency).
+Not shown: 65533 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+# Nmap done at Wed Feb  5 14:25:39 2020 -- 1 IP address (1 host up) scanned in 103.41 seconds
